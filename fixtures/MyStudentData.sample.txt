@@ -1,0 +1,83 @@
+File Source:CURRENT DOWNLOAD
+File Request Date:2026-10-01 09:15:22
+Student First Name:ALEX
+Student Middle Initial:
+Student Last Name:TESTER
+Student Street Address 1:123 MAPLE LANE
+Student City:WACO
+Student State Code:TX
+Student Zip Code:76706
+Student Email Address:ALEX.TESTER@EXAMPLE.COM
+Student Enrollment Status Code:F
+Student Enrollment Status Code Description:FULL TIME
+Student Enrollment Status Effective Date:08/24/2026
+Student Total All Loans Outstanding Principal:$19,500.00
+Student Total All Loans Outstanding Interest:$612.40
+Student Total All Grants:$3,100.00
+Type Code:D1
+Type Description:DIRECT STAFFORD SUBSIDIZED
+Total DIRECT STAFFORD SUBSIDIZED Outstanding Principal:$9,500.00
+Total DIRECT STAFFORD SUBSIDIZED Outstanding Interest:$0.00
+Loan Type Code:D1
+Loan Type Description:DIRECT STAFFORD SUBSIDIZED
+Loan Award ID:*****S23G12345001
+Loan Attending School Name:FICTIONAL STATE UNIVERSITY
+Loan Date:08/15/2023
+Loan Repayment Begin Date:
+Loan Amount:$3,500.00
+Loan Disbursed Amount:$3,500.00
+Loan Outstanding Principal Balance:$3,500.00
+Loan Outstanding Principal Balance as of Date:09/30/2026
+Loan Outstanding Interest Balance:$0.00
+Loan Outstanding Interest Balance as of Date:09/30/2026
+Loan Interest Rate Type Code:F
+Loan Interest Rate Type Description:FIXED
+Loan Interest Rate:5.50%
+Loan Repayment Plan Type Code:
+Loan Repayment Plan Type Code Description:
+Loan Next Payment Due Date:
+Current Loan Status:IA
+Current Loan Status Description:IN SCHOOL OR GRACE PERIOD
+Loan Status:IA
+Loan Status Description:IN SCHOOL OR GRACE PERIOD
+Loan Status Effective Date:08/15/2023
+Loan Disbursement Date:08/20/2023
+Loan Disbursement Amount:$1,750.00
+Loan Disbursement Date:01/10/2024
+Loan Disbursement Amount:$1,750.00
+Loan Type Code:D1
+Loan Type Description:DIRECT STAFFORD SUBSIDIZED
+Loan Attending School Name:FICTIONAL STATE UNIVERSITY
+Loan Date:08/15/2024
+Loan Amount:$6,000.00
+Loan Disbursed Amount:$6,000.00
+Loan Outstanding Principal Balance:$6,000.00
+Loan Outstanding Principal Balance as of Date:09/30/2026
+Loan Outstanding Interest Balance:$0.00
+Loan Interest Rate Type Description:FIXED
+Loan Interest Rate:6.53%
+Current Loan Status Description:IN SCHOOL OR GRACE PERIOD
+Loan Disbursement Date:08/21/2024
+Loan Disbursement Amount:$3,000.00
+Loan Disbursement Date:01/09/2025
+Loan Disbursement Amount:$3,000.00
+Loan Type Code:D2
+Loan Type Description:DIRECT STAFFORD UNSUBSIDIZED
+Loan Attending School Name:FICTIONAL STATE UNIVERSITY
+Loan Date:08/15/2025
+Loan Amount:$10,000.00
+Loan Disbursed Amount:$10,000.00
+Loan Outstanding Principal Balance:$10,000.00
+Loan Outstanding Principal Balance as of Date:09/30/2026
+Loan Outstanding Interest Balance:$612.40
+Loan Outstanding Interest Balance as of Date:09/30/2026
+Loan Interest Rate Type Description:FIXED
+Loan Interest Rate:6.39%
+Current Loan Status Description:IN SCHOOL OR GRACE PERIOD
+Loan Disbursement Date:08/20/2025
+Loan Disbursement Amount:$5,000.00
+Loan Disbursement Date:01/08/2026
+Loan Disbursement Amount:$5,000.00
+Grant Type Code:PELL
+Grant Type Code Description:FEDERAL PELL GRANT
+Grant Award Amount:$3,100.00

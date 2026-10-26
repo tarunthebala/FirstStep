@@ -1,0 +1,65 @@
+/*
+ * FirstStep design tokens — mirrors src/shared/theme.ts.
+ *
+ * Color: WACODE 2026 palette, read from wacode2026.com's :root variables (--forest, --ink, --line, --muted,
+ * --paper, --sage) and its hero gradient. Status colors are additions in the same family, AA on paper.
+ *
+ * Form, type and motion: Apple-style — system font with size-specific tracking, continuous rounded
+ * shapes, translucent materials for floating chrome, and depth through soft shadows instead of hard rules.
+ */
+:root {
+  /* color */
+  --color-primary: #143e29;
+  --color-primary-hover: #0c2e1c;
+  --color-secondary: #19522f;
+  --color-accent: #3b773f;
+  --color-accent-soft: #c8dfb5;
+  --color-accent-light: #a5bf8f;
+  --color-bg: #f3f2ed;
+  --color-surface: #ffffff;
+  --color-muted-surface: #e7ebe1;
+  --color-muted-surface-2: #eef1ea;
+  --color-text: #20271e;
+  --color-text-secondary: #596052;
+  --color-text-inverse: #f3f2ed;
+  --color-border: rgba(32, 39, 30, 0.1);
+  --color-border-strong: rgba(32, 39, 30, 0.2);
+  --color-success: #2f6b38;
+  --color-success-bg: #e3eedb;
+  --color-warning: #7a5200;
+  --color-warning-bg: #f6edd6;
+  --color-error: #9c2f27;
+  --color-error-bg: #f7e2de;
+  --gradient-brand: linear-gradient(135deg, #0c2e1c 0%, #19522f 36%, #3b773f 64%, #a5bf8f 87%, #e2e8d5 100%);
+
+  /* materials (translucent floating layers) */
+  --material-thin: rgba(243, 242, 237, 0.72);
+  --material-regular: rgba(243, 242, 237, 0.82);
+  --material-thick: rgba(231, 235, 225, 0.86);
+  --material-blur: blur(20px) saturate(180%);
+  --material-edge: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+
+  /* type — system font, optical sizing on */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* shape */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* depth */
+  --shadow-1: 0 1px 2px rgba(20, 30, 20, 0.05), 0 1px 1px rgba(20, 30, 20, 0.03);
+  --shadow-2: 0 4px 16px rgba(20, 40, 25, 0.07), 0 1px 3px rgba(20, 40, 25, 0.05);
+  --shadow-pop: 0 24px 60px rgba(12, 46, 28, 0.18), 0 6px 18px rgba(12, 46, 28, 0.1);
+
+  /* interaction */
+  --focus: 0 0 0 3px var(--color-bg), 0 0 0 5px rgba(20, 62, 41, 0.6);
+  --press-scale: 0.97;
+  --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
+
+  --space-page: clamp(1rem, 4vw, 2.5rem);
+  --max: 74rem;
+}

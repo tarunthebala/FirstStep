@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" role="img" aria-label="FirstStep">
+  <rect x="8" y="23" width="9" height="9" fill="#a5bf8f"/>
+  <rect x="17" y="14" width="9" height="9" fill="#c8dfb5"/>
+  <rect x="26" y="5" width="12" height="38" fill="#f3f2ed"/>
+  <text x="50" y="35" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-1.4" fill="#f3f2ed">First<tspan fill="#c8dfb5">Step</tspan></text>
+</svg>

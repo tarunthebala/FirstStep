@@ -1,0 +1,19 @@
+node_modules
+dist
+.data
+test-results
+coverage
+*.log
+
+# Secrets: never commit real env files (the example is fine)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode
+.idea

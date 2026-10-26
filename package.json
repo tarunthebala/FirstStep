@@ -1,0 +1,31 @@
+{
+  "name": "firststep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FirstStep: student loan repayment readiness for college students and recent graduates.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch & tsx watch src/server/index.ts",
+    "start": "node scripts/build.mjs && tsx src/server/index.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "e2e": "node scripts/build.mjs && tsx e2e/acceptance.ts"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "5.7.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "esbuild": "0.28.2",
+    "playwright": "1.63.0",
+    "tsx": "4.23.12",
+    "typescript": "6.0.3"
+  }
+}
