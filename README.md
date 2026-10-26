@@ -25,37 +25,6 @@ Sample upload file: `fixtures/MyStudentData.sample.txt` (fictional, in Federal S
 
 ---
 
-## Brand: WACODE 2026 palette
-
-Colors were read from the live CSS of https://www.wacode2026.com/ on 2026-10-23. The site declares these `:root` variables; FirstStep uses them as its palette.
-
-| Token | Value | Source on wacode2026.com |
-|---|---|---|
-| Primary | `#143e29` | `--forest` |
-| Text | `#20271e` | `--ink` |
-| Page background | `#f3f2ed` | `--paper` |
-| Accent (soft) | `#c8dfb5` | `--sage` |
-| Border | `#d4d7cb` | `--line` |
-| Secondary text | `#596052` | `--muted` |
-| Secondary / accent | `#19522f`, `#3b773f`, `#a5bf8f`, `#0c2e1c` | hero gradient stops |
-| Muted surface | `#dfe6d8` | card background |
-
-**Interface style (Apple-inspired).** The colors stay WACODE's, but form and motion follow Apple's design guidance (WWDC *Designing Fluid Interfaces* and related talks), translated for the web:
-
-- **Type:** the system font (SF Pro on Apple devices, Segoe UI on Windows) with optical sizing; tracking tightens as size grows (−0.038em on display text, near 0 on body), and leading tightens on large headings. Sizes are in `rem`, so the layout scales with the user's text size.
-- **Shape and depth:** capsule buttons, continuous rounded corners, soft layered shadows instead of hard rules.
-- **Materials:** headers, the sidebar, the mobile tab bar, dialog footers and toasts are translucent (`backdrop-filter`) with content scrolling underneath. A soft edge appears only once content actually scrolls under the header.
-- **Response:** every pressable element reacts on pointer-down, instantly; segmented controls select on pointer-down.
-- **Springs** (`src/client/lib/spring.ts`): critically damped by default, interruptible (always animate from the current value and velocity), with Apple's damping/response parameters. They drive the segmented-control thumb (independent X and width springs), dialog presentation, and toasts (enter and exit along the same path).
-- **Sheets on phones:** dialogs become bottom sheets that track the finger 1:1 after a 10px threshold, rubber-band when pulled up, hand off release velocity, project a flick's momentum to decide dismiss vs. return, and bounce only when the gesture carried momentum. Dismissal releases the modal lock immediately, so the page is never blocked during the exit animation.
-- **Accessibility preferences:** `prefers-reduced-motion` (no travel, cross-fades only), `prefers-reduced-transparency` (solid materials), and `prefers-contrast: more` (solid backgrounds, defined borders).
-
-Additions (the reference has no status palette): white surface, and success/warning/error colors in the same earth-green family, chosen for AA contrast on paper. Tokens live in `src/shared/theme.ts` and are mirrored as CSS variables in `src/client/styles/tokens.css`.
-
-**Logo.** No logo file was supplied, so the staircase “1” was redrawn as SVG from the brief: two ascending steps rising into the numeral’s stem, in `#3b773f` → `#19522f` → `#143e29`, with a “First**Step**” wordmark (ink + forest). Files: `public/brand/logo.svg`, `logo-mark.svg`, `logo-reverse.svg` (for dark backgrounds), `public/favicon.svg`. If you have the original logo artwork, drop it in and keep these colors.
-
----
-
 ## Stack (and why it differs from the brief)
 
 The brief suggested Next.js, Supabase JS, Recharts and shadcn/ui. The build environment had **no access to the npm registry**, only a fixed set of preinstalled packages (React 19, esbuild, TypeScript, tsx, zod, react-icons, Playwright). Rather than ship unrun code, FirstStep was built on what could actually be executed and tested:
